@@ -1,0 +1,43 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://utda.github.io/shelly/oa/items/1/annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "anbase:aa8976a7cdc4c79861a079357ec37f06",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=1535,2161,1289,2122",
+            "resource": {
+                "@type": "dctypes:Text",
+                "chars": "<table width='100%' style='border : 1px;'><tr><th>タイトル</th><th>画像</th></tr><tr><td><a href='https://nakamura196.github.io/hi_app/?manifest=https://nakamura196.github.io/hi_app/iiif/2/manifest.json&annotationState=on'>50倍画像</a></td><td><img width=\"90\" height=\"90\" src='https://nakamura196.github.io/hi_app/files/original/2.jpg'/></td></tr></table>",
+                "format": "text/html"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "anbase:c1a678d62083cf4b6c0cffc90fd4f384",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<table width='100%' style='border : 1px;'><tr><th>タイトル</th><th>画像</th></tr><tr><td><a href='https://nakamura196.github.io/hi_app/?manifest=https://nakamura196.github.io/hi_app/iiif/2/manifest.json&annotationState=on'>50倍画像</a></td><td><img width=\"90\" height=\"90\" src='https://nakamura196.github.io/hi_app/files/original/2.jpg'/></td></tr></table>",
+                "format": "text/thml"
+            },
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=5029,3075,1733,303"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "anbase:a1a7aa62699c1419ce8fd8b9d09d0908",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "<table width='100%' style='border : 1px;'><tr><th>タイトル</th><th>画像</th></tr><tr><td><a href='https://nakamura196.github.io/hi_app/?manifest=https://nakamura196.github.io/hi_app/iiif/2/manifest.json&annotationState=on'>50倍画像</a></td><td><img width=\"90\" height=\"90\" src='https://nakamura196.github.io/hi_app/files/original/2.jpg'/></td></tr></table>",
+                "format": "text/html"
+            },
+            "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1#xywh=5726,3349,268,264"
+        }
+    ]
+}

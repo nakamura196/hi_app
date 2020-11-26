@@ -1,0 +1,52 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://utda.github.io/shelly/files/tile/shelly/manifest.json",
+	"@type": "sc:Manifest",
+	"label": "オリジナル画像B",
+	"thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg",
+	"license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
+	"logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
+	"related": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/shelly/document/e3e3be43-358d-47bf-a245-d52ffe4ed866",
+	"seeAlso": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/api/items/22131",
+	"metadata": [{
+    "label": "Title",
+    "value": "オリジナル画像B"
+  }
+],
+	"sequences": [{
+		"@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/sequence/normal",
+		"@type": "sc:Sequence",
+		"label": "Current Page Order",
+		"viewingHint": "non-paged",
+		"canvases": [{
+			"@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1",
+			"@type": "sc:Canvas",
+      "label": "[1]",
+      "thumbnail": {
+				"@id": "https://nakamura196.github.io/hi_app/files/original/1.jpg"
+			},
+			"otherContent": [
+				{
+					"@id": "https://nakamura196.github.io/hi_app/iiif/1/annolist/1.json",
+					"@type": "sc:AnnotationList"
+				}
+			],
+			"width": 8612,
+			"height": 6470,
+			"images": [{
+				"@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/annotation/p0001-image",
+				"@type": "oa:Annotation",
+				"motivation": "sc:painting",
+				"on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e3e3be43-358d-47bf-a245-d52ffe4ed866/canvas/p1",
+				"resource": {
+					"@id": "https://nakamura196.github.io/hi_app/files/original/1.jpg",
+					"@type": "dctypes:Image",
+					"format": "image/jpeg",
+					"height": 6470,
+					"width": 8612
+				}
+			}]
+		}]
+	}],
+	"viewingDirection": "left-to-right"
+}
