@@ -5,7 +5,10 @@
   "label": "オリジナル史料B",
   "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg",
   "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-  "seeAlso": "https://nakamura196.github.io/hi_app/api/items/1.json",
+  "seeAlso": {
+    "@id": "https://nakamura196.github.io/hi_app/api/items/1.json",
+    "format": "application/json"
+  },
   "metadata": [
     {
       "label": "Title",

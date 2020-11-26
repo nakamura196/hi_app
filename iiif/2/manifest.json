@@ -5,8 +5,14 @@
   "label": "顕微鏡画像A",
   "thumbnail": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/files/medium/b21f88051663fd540a6d382183349894d16b58b8.jpg",
   "license": "https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse",
-  "related": "https://nakamura196.github.io/hi_app/?manifest=https://nakamura196.github.io/hi_app/iiif/1/manifest.json&annotationState=on",
-  "seeAlso": "https://nakamura196.github.io/hi_app/api/items/2.json",
+  "related": {
+    "@id": "https://nakamura196.github.io/hi_app/?manifest=https://nakamura196.github.io/hi_app/iiif/1/manifest.json&annotationState=on",
+    "format": "text/html"
+  },
+  "seeAlso": {
+    "@id": "https://nakamura196.github.io/hi_app/api/items/2.json",
+    "format": "application/json"
+  },
   "metadata": [
     {
       "label": "Title",
